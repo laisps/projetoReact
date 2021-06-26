@@ -10,7 +10,7 @@ const Footer = () => {
         <h1 class="name">Laís Pereira</h1>
         <p>
           Software engineer associate na Accenture Brasil | Salesforce | Mentora
-          e Organizadora Cloud Girls | Aluna {reprograma} | Estudante de ADS
+          e Organizadora Cloud Girls | Aluna reprograma | Estudante de ADS
         </p>
       </div>
       <ul>
