@@ -1,0 +1,33 @@
+input {
+  width: 89%;
+  margin: 0.7rem;
+  padding: 1.5rem;
+  border-radius: 0.5em;
+  margin-left: 4rem;
+}
+
+.repos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.repositores {
+  background-color: rgb(230, 232, 247);
+  color: #4f2158;
+  width: 200px;
+  height: 70px;
+  padding: 10px;
+  /* list-style-type: none; */
+  margin: 10px 10px 10px 10px;
+}
+
+@media (max-width: 768px) {
+  input {
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+  }
+}
