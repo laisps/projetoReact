@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Home from "../pages/Home";
+import GitHub from "../pages/GitHub";
 import Simpsons from "../pages/Simpsons";
-import GitHub from "../pages/Github";
 
-const Routes = () => {
+function Routes() {
   return (
     <BrowserRouter>
       <Switch>
@@ -15,6 +15,6 @@ const Routes = () => {
       </Switch>
     </BrowserRouter>
   );
-};
+}
 
 export default Routes;
